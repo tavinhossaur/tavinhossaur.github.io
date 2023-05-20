@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tavinho's GitHub Page</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img id="profile-pic" src="https://avatars.githubusercontent.com/u/64261696?v=4" alt="Octávio Barassa"
+            width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Octávio Barassa">Octávio Barassa</h1>
+
+          <p class="title">Back-end developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="octavior.barassa@hotmail.com" class="contact-link">octavior.barassa@hotmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">July 14, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Amparo, São Paulo, Brazil</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/octaviobarassa/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.twitter.com/tavinhossaur/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a systems development student from Brazil, and I work as IT assistant at HTM Eletrônica.
+          </p>
+
+          <p>
+            I always liked to study and work with technology. Today I work with IT infrastructure, but I am looking
+            forward to perhaps gaining an opportunity as a developer at my company or elsewhere.
+            I'm a systems development technician and I'm currently studying Systems Analysis and Development at IFSP in
+            Bragança Paulista, São Paulo.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My knowledge and experiences</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Mobile dev icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile development</h4>
+
+                <p class="service-item-text">
+                  Experience in full-stack development of native Android apps with Java and Kotlin.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web dev icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Knowledge in websites development with HTML, CSS, PHP and JS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web dev icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database structures</h4>
+
+                <p class="service-item-text">
+                  Knowledge in SQL Server, MySQL, OracleDB and MongoDB.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX</h4>
+
+                <p class="service-item-text">
+                  Excellent UI/UX skills in the development of any plataform.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IFSP - Campus Bragança Paulista</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                I have several classes in my Analysis and Systems Development course that are directly related to the
+                job market in the programming environment. I am aiming to relearn new programming methods and techniques
+                that I may not have learned in my technical course.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ETEC João Belarmino</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                During high school, simultaneously and at the same school, I also took a technical course in Systems
+                Development. The course was excellent for introducing me to the world of programming and teaching me how
+                to learn autonomously.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Aecomp - Escola de Profissões</h4>
+
+              <span>2018 - 2019</span>
+
+              <p class="timeline-text">
+                This course was just a supplementary computer course. I already had a good amount of knowledge about
+                computers; however, I decided to take the course to complement my understanding and learn things that I
+                didn't know at that time.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IT Assistant</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                I work at HTM Eletrônica as an IT infrastructure assistant. I take care of the installation,
+                configuration and maintenance of the company's computers, in addition to the internal network as well.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer maintenance, cleaning and formatting</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                I work as a freelancer doing small maintenance, cleaning and formatting jobs on personal computers or
+                cellphones
+                when the opportunity arises.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                I worked making and designing some photos and posts for social media to promote my father selling
+                business.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Android Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database Structures</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="mobile development">
+              <a id="btn_bloom" href="#">
+                <div id="toast"></div>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bloom.png" alt="bloom" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bloom (Kotlin)</h3>
+
+                <p class="project-category">Mobile Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/tavinhossaur/tavinho-s-restaurant" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/restaurant.png" alt="restaurant menu" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Restaurant Menu (Flutter)</h3>
+
+                <p class="project-category">Mobile Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/tavinhossaur/dshape-website" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dshape.png" alt="dshape" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dshape Website (Laravel)</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/tavinhossaur/trucomkkkk" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/truco_k.png" alt="trucomkkkk_kotlin" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Trucomkkkk (Kotlin)</h3>
+
+                <p class="project-category">Mobile Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/tavinhossaur/trucomkkkk-flutter" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/truco_f.png" alt="trucomkkkk_flutter" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Trucomkkkk (Flutter)</h3>
+
+                <p class="project-category">Mobile Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="other projects">
+              <a href="https://gist.github.com/tavinhossaur/d7fc1534fffe2d2ff54bf3fa8a1025b2" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tetris.png" alt="tetris" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tetris CLI (C++)</h3>
+
+                <p class="project-category">Other Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="other projects">
+              <a href="https://github.com/tavinhossaur/averdrian-discord-bot" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/averdrian.png" alt="averdrian" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Averdrian Discord Bot (Java)</h3>
+
+                <p class="project-category">Other Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mobile development">
+              <a href="https://github.com/tavinhossaur/banco-app" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/banco.png" alt="banco" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ATM Simulator App (Kotlin)</h3>
+
+                <p class="project-category">Mobile Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="other projects">
+              <a href="https://github.com/tavinhossaur/cs50-exercises" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course.png" alt="cs50" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CS50 Course (C, Python, MySQL and JS)</h3>
+
+                <p class="project-category">Other Projects</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
