@@ -1140,16 +1140,3 @@ main {
     max-width: 700px
   }
 }
-
-#toast {
-  position: fixed;
-  width: 245px;
-  margin-top: 2px;
-  margin-left: 5px;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 10px;
-  border-radius: 20px;
-  display: none;
-  z-index: 9999
-}
